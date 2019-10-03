@@ -1,14 +1,14 @@
 class Person{
-    constructor(name,age){
+    constructor(name,yolo){
         this.name = name;
-        this.age = age;
+        this.yolo = yolo;
     }
     tellMyName(){
             return console.log(`I am ${this.name}`);
     }
 
     tellMyAge () {
-            return console.log(`I am ${this.age} years old`);
+            return console.log(`I am ${this.yolo} years old`);
     }
 }
 const john = new Person ("John",40);
