@@ -8,7 +8,7 @@ class Person{
     }
 
     tellMyAge () {
-            return console.log(`I am ${this.age} years old)`;
+            return console.log(`I am ${this.age} years old`);
     }
 }
 const john = new Person ("John",40);
